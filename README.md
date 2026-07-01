@@ -1,2 +1,61 @@
-# predict-traffic-demand-
-Traffic Demand Prediction using LightGBM &amp; XGBoost is a machine learning project that predicts vehicle traffic based on traffic, weather, and time-related features. The project uses Python, LightGBM, XGBoost, and Flask to train predictive models and provide traffic demand predictions through a simple web application.
+# Traffic Demand Prediction using LightGBM & XGBoost
+
+## Project Overview
+This project predicts future traffic demand using machine learning. The model is trained on traffic, weather, and time-based features and deployed using Flask.
+
+## Features
+- Data Preprocessing
+- Feature Engineering
+- LightGBM
+- XGBoost
+- Random Forest
+- Flask Deployment
+- REST API
+
+## Technologies
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- LightGBM
+- XGBoost
+- Flask
+
+## Dataset Features
+- Hour
+- Day
+- Temperature
+- Humidity
+- Rainfall
+- Speed Limit
+- Traffic Density
+
+## Run
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Train Model
+
+```bash
+python train_model.py
+```
+
+Run Flask
+
+```bash
+python app.py
+```
+
+Open
+
+```
+http://127.0.0.1:5000
+```
+
+## Author
+
+Saiteja Engili
