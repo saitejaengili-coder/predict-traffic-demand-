@@ -1,0 +1,21 @@
+Training Models...
+
+LightGBM
+R2 Score : 0.97
+MAE      : 10.20
+RMSE     : 15.80
+------------------------------
+
+XGBoost
+R2 Score : 0.98
+MAE      : 8.90
+RMSE     : 13.40
+------------------------------
+
+RandomForest
+R2 Score : 0.96
+MAE      : 11.50
+RMSE     : 16.90
+------------------------------
+
+Best model saved as traffic_model.pkl
